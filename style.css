@@ -3,7 +3,7 @@ p {
  margin-top: 80px; 
  margin-left: 30px;
  margin-right: 30px;
- padding: 25px;
+ padding: 40px;
  
  
 }
@@ -18,7 +18,7 @@ h1 {
 
 a {
  color: red;
- font-size: 42px;
+ font-size: 60px;
  font-style: italic;
  font-weight: bold;
 }
