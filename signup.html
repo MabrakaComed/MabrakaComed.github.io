@@ -14,7 +14,21 @@
  <p id="votes">3 votes</p>
   <button id="upvote" onclick="upvote()">Upvote</button>
   <button id="downvote" onclick="downvote()">Downvote</button>
-  <script src="script.js"></script>
+  <script>var counter = 3;
+
+function upvote() {
+ counter = counter + 1;
+
+ document.getElementById("votes")
+  .innerHTML = counter + " votes";
+}
+
+function downvote() {
+ counter = counter - 1;
+
+ document.getElementById("votes")
+  .innerHTML = counter + " votes";
+}  </script>
 <h1><b>Girls Hustle😹</h1>
 <video width="900" height="600" controls>
   <source src="P43.mp4" type="video/mp4">
@@ -24,7 +38,21 @@
  <p id="votes">3 votes</p>
   <button id="upvote" onclick="upvote()">Upvote</button>
   <button id="downvote" onclick="downvote()">Downvote</button>
+<script> var counter = 3;
 
+function upvote() {
+ counter = counter + 1;
+
+ document.getElementById("votes")
+  .innerHTML = counter + " votes";
+}
+
+function downvote() {
+ counter = counter - 1;
+
+ document.getElementById("votes")
+  .innerHTML = counter + " votes";
+}  </script>
 <h1><b>Girls Hustle😹</h1>
 <video width="900" height="600" controls>
   <source src="P44.mp4" type="video/mp4">
