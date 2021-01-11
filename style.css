@@ -49,12 +49,12 @@ button {
 
 #upvote {
  background-color: green;
-font-size: 25px;
+font-size: 35px;
 }
 
 #downvote {
  background-color: red;
-font-size: 25px;
+font-size: 35px;
 }
 
 #votes {
